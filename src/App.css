@@ -51,12 +51,7 @@ html {
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
-body {
-  margin: 0;
-  /* 1 */
-  line-height: inherit;
-  /* 2 */
-}
+
 
 /*
 1. Add the correct height in Firefox.
@@ -823,12 +818,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-body {
-  background-image: url('./assets/img/bg-tablet-pattern.svg');
-  background-repeat: no-repeat;
-  background-size: 800px;
-  background-position: 90% -25%;
-}
+
 
 #cta {
   background-image: url('./assets/img/bg-simplify-section-desktop.svg');
@@ -836,10 +826,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  body {
-    background-position: 50px -50px;
-    background-size: 500px;
-  }
+
 
   #cta {
     background-image: url('./assets/img/bg-simplify-section-mobile.svg');

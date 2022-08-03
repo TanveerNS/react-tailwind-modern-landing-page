@@ -1,21 +1,18 @@
 import './App.css';
-import Cta from './components/Cta';
-import Features from './components/Features';
+import './nskast.css'
 import Footer from './components/Footer';
-import Hero from './components/Hero';
 import Navbar from './components/Navbar'
-import Testimonials from './components/Testimonials';
+import PodKast from './components/podkast';
+import PopularTag from './components/PopularTag';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <Hero />
-      <Features />
-      <Testimonials />
-      <Cta />
-      <Footer />
-    </div>
+      <PodKast />
+      <PopularTag />
+      <Footer /> 
+    </>
   );
 }
 
