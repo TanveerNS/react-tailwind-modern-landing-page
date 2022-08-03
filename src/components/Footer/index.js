@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer class="bg-veryDarkBlue">
+    <footer class="bg-veryDarkBlue mt-12">
       <div
         class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
       >
@@ -62,10 +62,10 @@ const Footer = () => {
               </button>
             </div>
           </form>
-          <div class="hidden text-white md:block">
-            Copyright &copy; 2022, All Rights Reserved
-          </div>
         </div>
+      </div>
+      <div class="hidden container text-center pb-6 flex text-white md:block">
+        <p>Copyright &copy; 2022, All Rights Reserved</p>
       </div>
     </footer>
   )
